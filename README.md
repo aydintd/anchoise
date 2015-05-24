@@ -18,7 +18,7 @@ Download and install vagrant.
 
 Add this Centos 6.6 box to your system to use it whenever you need.
 
-        $ vagrant box add centos-6x-minimal https://github.com/tommy-muehle/vagrant-box-centos-6.6/releases/download/1.0.0/centos-6.6-x86_64.box
+        $ vagrant box add centos-6x-base https://github.com/tommy-muehle/vagrant-box-centos-6.6/releases/download/1.0.0/centos-6.6-x86_64.box
 
         $ git clone https://github.com/aydintd/anchoise
 
