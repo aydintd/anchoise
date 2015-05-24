@@ -6,7 +6,7 @@ This project provides to you a Java Development Kit 7 (v1.7.0_71) environment ru
 
 All requirements for the project are described below, following those steps will lead you way to get a fresh and nice java development or test environment.
 
-Version : v1.0.0
+Version : v1.0.1
 
 ## Requirements
 
