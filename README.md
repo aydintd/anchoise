@@ -26,6 +26,16 @@ Add this Centos 6.6 box to your system to use it whenever you need.
 
 Examine the Vagrantfile, change the default values of your VM's hardware infos or Networking sections to your environment.
 
+Download the necessary puppet modules :
+
+        $ cd modules
+
+        $ git clone https://github.com/puppetlabs/puppetlabs-stdlib stdlib
+
+        $ git clone https://github.com/aydintd/module-jdk7 jdk7 
+
+module-jdk7 is not ready yet, check TODO section for more information.
+
 To fire up your JDK7 , run this command in anchoise root.
 
         $ vagrant up
@@ -34,6 +44,9 @@ It should download the vagrant box image first, will fire up the image in Virtua
 After it'll be provisinoed for Oracle JDK7 development environment with Masterless Puppet and Hiera.
 
 ## TO-DO
+
+JDK7 puppet module is not published yet, i am going to publish it asap or "Publish or Perish" will happen.
+
 
 I'm going to add tomcat7 or another web application servers for Java and make it sure all will be configurable via hieradatas just
 before provisioning.
