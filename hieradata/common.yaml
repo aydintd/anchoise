@@ -1,0 +1,10 @@
+jdk7::source::package: 'jdk-7u71-linux-x64.rpm'
+jdk7::source::url: 'http://download.oracle.com/otn-pub/java/jdk/7u71-b14/jdk-7u71-linux-x64.rpm'
+jdk7::version: '1.7.0_71'
+jdk7::cookie: 'Cookie: oraclelicense=accept-securebackup-cookie'
+jdk7::java_home: '/usr/java'
+jdk7::java_default: '/usr/java/default'
+jdk7::alternatives::priority: '1903'
+jdk7::urandom: false
+
+jdk7_message: 'Hello, Java Development Kit 7 Installation has begun. Keep calm and steady for a while."
